@@ -1,0 +1,41 @@
+body {
+    width: 600px;
+    margin: 0 auto;
+    color: #d3e25b;
+    background-color: #005500;
+}
+
+header {
+    font-family: sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header nav li {
+    margin: 0 4px;
+}
+
+main {
+    font-family: sans-serif;
+    background-color: #d3e25b;
+    color: #002200;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
