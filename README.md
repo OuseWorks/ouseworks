@@ -1,15 +1,2 @@
-# OuseWorks Website
-
-The website for OuseWorks.
-i hope to god this works
-
-i've stolen niamh's identity muahahaha
-
-please
-
-lol get changed
-slay
-sorry Matt for ruining your presentation
-hiiii
-this is my working branch
-matt change
+<h1>Ouseworks</h1>
+<b>Temporary readme file.</b> 
