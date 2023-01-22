@@ -1,2 +1,3 @@
-<h1>Piazza Panic</h1>
-A free-to-play game by Ouseworks!
+# Ouseworks
+
+The website for the Ouseworks game development team.
