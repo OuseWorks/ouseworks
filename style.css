@@ -1,17 +1,21 @@
 body {
     width: 600px;
     margin: 0 auto;
-    color: #d3e25b;
+    color: #000000;
     background-color: #115511;
+    background-image: url('logo.gif') ;
+    background-size: cover;
 }
 
 header {
     font-family: sans-serif;
+    padding-top: 5px;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 header nav ul {
@@ -19,19 +23,23 @@ header nav ul {
     justify-content: space-evenly;
     padding: 0;
     margin: 0;
-    list-style: none;
+    list-style: circle;
 }
 
 header nav li {
     margin: 0 4px;
+    color: #000000;
 }
 
 main {
     font-family: sans-serif;
     background-color: #d3e25b;
+    background-position: center center;
     color: #002200;
-    padding: 8px;
-    border-radius: 6px;
+    position: absolute;
+    padding-left: 25px;
+    border-radius: 20px;
+    width: 75%;
 }
 
 footer {
