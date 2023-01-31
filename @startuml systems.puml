@@ -1,0 +1,43 @@
+@startuml systems
+
+queueSystem : main
+
+orderSystem : main
+orderSystem : Sprite
+
+cookingSystem : main
+cookingSystem : Sprite
+
+
+prepSystem : main
+prepSystem : Sprite
+
+' optionsSystem : main
+optionsSystem : pop_up_screen
+
+ingredientSystem --|> optionsSystem
+
+gameController : switchScreen
+gameController : int timer
+gameController : int scoreCounter
+
+movementSystem : position cook
+movementSystem : targetPos
+
+
+class main #LightBlue{
+    int timer  
+    stack order
+    bool busy
+}
+
+class position #LightBlue{
+    int x
+    int y
+}
+
+class Sprite #LightBlue{
+    img png
+}
+
+@enduml
